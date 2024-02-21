@@ -1,7 +1,55 @@
 html, body {
+    position: flex;
     font-family: 'Helvetica';
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    align-items: center;
 }
+
+.header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    text-align: right;
+}
+
+.mission {
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cupofteapic {
+    width: 1200px;
+    height: 700px;
+    margin-top: 70px;
+    padding: 20px;
+    text-align: center;
+    z-index: -1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust margin between items as needed */
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Adjust link color as needed */
+  }
