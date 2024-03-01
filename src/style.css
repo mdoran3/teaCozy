@@ -1,26 +1,41 @@
 html, body {
-    position: flexbox;
+    position: flex;
     font-family: 'Helvetica';
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     align-items: center;
+    justify-content: center;
 }
 
 .header {
     position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
     height: 69px;
     width: 100%;
-    padding: 10px;
+    padding: 0;
+    background-color: black;
     border-bottom: 1px solid seashell;
     text-align: right;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .mission {
     position: flexbox;
+    justify-content: center;
+    align-items: center;
     height: 100px;
-    margin-top: 10px;
+    margin-top: 70px;
     padding: 20px;
     text-align: center;
     background-color: black;
@@ -28,24 +43,28 @@ html, body {
 }
 
 .cupofteapic {
-    width: 1200px;
-    height: 700px;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
     padding: 20px;
     text-align: center;
     z-index: -1;
 }
 
-.logo {
-    width: 100px;
+.logo img {
     height: 50px;
+    width: auto;
     margin-left: 10px;
-    text-align: left;
 }
 
 nav ul {
+    display: inline-flexbox;
+    justify-content: right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-right: 20px;
+    padding: 10px;
   }
   
   nav ul li {
@@ -54,7 +73,7 @@ nav ul {
   }
   
   nav ul li:first-child {
-    margin-left: 0;
+    margin-left:20px;
   }
   
   nav ul li a {
