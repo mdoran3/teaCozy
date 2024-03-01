@@ -30,35 +30,6 @@ html, body {
     align-items: center;
 }
 
-.mission {
-    position: flexbox;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-top: 70px;
-    padding: 20px;
-    text-align: center;
-    background-color: black;
-    z-index: 0;
-}
-
-.cupofteapic {
-    position: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-    padding: 20px;
-    text-align: center;
-    z-index: -1;
-}
-
-.logo img {
-    height: 50px;
-    width: auto;
-    margin-left: 10px;
-}
-
 nav ul {
     display: inline-flexbox;
     justify-content: right;
@@ -77,6 +48,87 @@ nav ul {
   }
   
   nav ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #fff; /* Adjust link color as needed */
   }
+
+  .mission {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 70px;
+    text-align: center;
+    background-color: black;
+    z-index: 0;
+}
+
+.cupofteapic {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    z-index: -1;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.missionstatement {
+  position: absolute;
+  text-align: center;
+  height: 100px;
+  width: 100%; /* Adjust width as needed */
+  top: 50%; /* Position from top */
+  left: 50%; /* Position from left */
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  background-color: black;
+}
+
+.missionstatement h2,
+.missionstatement h4 {
+  margin: 0; /* Remove default margins */
+  padding: 10px;
+}
+
+.teaofmonth {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: auto;
+  margin-top: 770px;
+  text-align: center;
+  background-color: black;
+  z-index: 0;
+}
+
+.fallberrypic img {
+  height: 200px;
+  width: 300px;
+}
+
+.spicedrumpic img {
+  height: 200px;
+  width: 300px;
+}
+
+.donutspic img {
+  height: 200px;
+  width: 300px;
+}
+
+.myrtleteapic img {
+  height: 200px;
+  width: 300px;
+}
+
+.bedfordteapic img {
+  height: 200px;
+  width: 300px;
+}
