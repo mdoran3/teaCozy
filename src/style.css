@@ -24,6 +24,14 @@ html, body {
     overflow: hidden;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: flex-end;
+
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -63,7 +71,7 @@ nav ul {
     z-index: 0;
 }
 
-.cupofteapic {
+.cup-of-tea-pic {
     position: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +87,7 @@ nav ul {
     margin-left: 10px;
 }
 
-.missionstatement {
+.mission-statement {
   position: absolute;
   text-align: center;
   height: 100px;
@@ -90,13 +98,16 @@ nav ul {
   background-color: black;
 }
 
-.missionstatement h2,
-.missionstatement h4 {
+.mission-statement h2,
+.mission-statement h4 {
+  display: flex;
+  position: flex;
+  justify-content: center;
   margin: 0; 
   padding: 10px;
 }
 
-.teaofmonth {
+.tea-of-month {
   position: relative;
   justify-content: center;
   align-items: center;
@@ -110,7 +121,7 @@ nav ul {
   z-index: 0;
 }
 
-.teapicwrapper {
+.tea-pic-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,27 +129,27 @@ nav ul {
   flex-direction: row;
 }
 
-.fallberrypic img {
+.fall-berry-pic img {
   height: 200px;
   width: 300px;
 }
 
-.spicedrumpic img {
+.spiced-rum-pic img {
   height: 200px;
   width: 300px;
 }
 
-.donutspic img {
+.donuts-pic img {
   height: 200px;
   width: 300px;
 }
 
-.myrtleteapic img {
+.myrtle-tea-pic img {
   height: 200px;
   width: 300px;
 }
 
-.bedfordteapic img {
+.bedford-tea-pic img {
   height: 200px;
   width: 300px;
 }
@@ -154,7 +165,7 @@ nav ul {
   background-color: black;
 }
 
-.locationstext {
+.locations-text {
   position: absolute;
   top: -10%;
   left: 50%;
@@ -167,7 +178,7 @@ nav ul {
   display: block;
 }
 
-.locationswrapper {
+.locations-wrapper {
   position: absolute;
   top: 50%;
   left: 50%; 
